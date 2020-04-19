@@ -13,7 +13,7 @@ ENV PSPDEV /usr/local/pspdev
 ENV PATH ${PATH}:${PSPDEV}/bin
 
 RUN \
-  git clone https://github.com/pspdev/psptoolchain.git && \
+  git clone https://github.com/nicolas-robin/psptoolchain.git && \
   pushd psptoolchain && \
     ./toolchain.sh && \
     popd && \
